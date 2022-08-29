@@ -1,23 +1,23 @@
 DEBUG (1): [info] Generating preloaded bracelets' keys..
-DEBUG (1): [info] Node: 1 | Key Parent: 3080221256x20 | Key Child: 3080553352x20
+DEBUG (1): [info] Node: 1 | Key Parent: 3080288808x20 | Key Child: 3080620936x20
 DEBUG (1): [info] TOS_Node: 1 is a PARENT
-DEBUG (1): [info] Starting Timer Pairing (every 12500 ms) for broadcast pairing at 0:0:0.000000010 
+DEBUG (1): [info] Starting Timer Pairing (every 12500 ms) for broadcast pairing at 0:0:0.000000020 
 DEBUG (2): [info] Generating preloaded bracelets' keys..
-DEBUG (2): [info] Node: 2 | Key Parent: 3080221296x20 | Key Child: 3080553392x20
+DEBUG (2): [info] Node: 2 | Key Parent: 3080288848x20 | Key Child: 3080620976x20
 DEBUG (2): [info] TOS_Node: 2 is a CHILD
-DEBUG (2): [info] Starting Timer Pairing (every 12500 ms) for broadcast pairing at 0:0:2.000000010 
+DEBUG (2): [info] Starting Timer Pairing (every 12500 ms) for broadcast pairing at 0:0:2.000000020 
 DEBUG (3): [info] Generating preloaded bracelets' keys..
-DEBUG (3): [info] Node: 3 | Key Parent: 3080221336x20 | Key Child: 3080553432x20
+DEBUG (3): [info] Node: 3 | Key Parent: 3080288888x20 | Key Child: 3080621016x20
 DEBUG (3): [info] TOS_Node: 3 is a PARENT
-DEBUG (3): [info] Starting Timer Pairing (every 12500 ms) for broadcast pairing at 0:0:3.000000010 
+DEBUG (3): [info] Starting Timer Pairing (every 12500 ms) for broadcast pairing at 0:0:3.000000020 
 DEBUG (4): [info] Generating preloaded bracelets' keys..
-DEBUG (4): [info] Node: 4 | Key Parent: 3080221376x20 | Key Child: 3080553472x20
+DEBUG (4): [info] Node: 4 | Key Parent: 3080288928x20 | Key Child: 3080621056x20
 DEBUG (4): [info] TOS_Node: 4 is a CHILD
-DEBUG (4): [info] Starting Timer Pairing (every 12500 ms) for broadcast pairing at 0:0:4.000000010 
+DEBUG (4): [info] Starting Timer Pairing (every 12500 ms) for broadcast pairing at 0:0:4.000000020 
 DEBUG (1): [info] Timer Pairing fired at 0:0:12.207031260 
 DEBUG (1): [radio>>] Broadcast datagram Id: 0 is under transmission | Time: 0:0:12.207031270 
 DEBUG (1): [radio>>] Broadcast datagram Id: 0 | Transmission is OK | with content: 
-DEBUG (1): 	 Key: 3080760689x20 
+DEBUG (1): 	 Key: 3080828273x20 
 DEBUG (1): 	 Address: 1 
 DEBUG (1): 	 Type: 0 
 DEBUG (4): [radio<<] Incoming transmission from BROADCAST pairing datagram.
@@ -25,19 +25,19 @@ DEBUG (4): [radio<<] Datagram received from node 1 has not the correct key
 DEBUG (3): [radio<<] Incoming transmission from BROADCAST pairing datagram.
 DEBUG (3): [radio<<] Datagram received from node 1 has not the correct key
 DEBUG (2): [radio<<] Incoming transmission from BROADCAST pairing datagram.
-DEBUG (2): [radio<<] TOS_Node: 2 has Key Parent: 3080221296x20 | is paired | with TOS_Node: 1 that has Key Child: 3080689658x20 
+DEBUG (2): [radio<<] TOS_Node: 2 has Key Parent: 3080288848x20 | is paired | with TOS_Node: 1 that has Key Child: 3080757242x20 
 DEBUG (2): [radio>>] Sending UNICAST pairing confirmation.. 
-DEBUG (2): [radio>>] Unicast datagram (pairing acknowledgement) to Address: 1 is under transmission | Time: 0:0:12.210922248 
+DEBUG (2): [radio>>] Unicast datagram (pairing acknowledgement) to Address: 1 is under transmission | Time: 0:0:12.215225201 
 DEBUG (2): [radio>>] Unicast datagram (pairing acknowledgement) to Address: 1 | Transmission is OK | with content: 
 DEBUG (2): 	 Acknowledgement: 1 
 DEBUG (2): 	 Type: 1 
 DEBUG (1): [radio<<] Incoming transmission from UNICAST pairing datagram.
 DEBUG (1): [radio<<] Pairing ACK received | is paired | Stopping broadcast transmission.. 
-DEBUG (2): [radio>>] The acknowledgment received at time 0:0:12.213409416 
+DEBUG (2): [radio>>] The acknowledgment received at time 0:0:12.223342830 
 DEBUG (2): [info] Timer Pairing fired at 0:0:14.207031260 
 DEBUG (2): [radio>>] Broadcast datagram Id: 0 is under transmission | Time: 0:0:14.207031270 
 DEBUG (2): [radio>>] Broadcast datagram Id: 0 | Transmission is OK | with content: 
-DEBUG (2): 	 Key: 3080760730x20 
+DEBUG (2): 	 Key: 3080828314x20 
 DEBUG (2): 	 Address: 2 
 DEBUG (2): 	 Type: 0 
 DEBUG (4): [radio<<] Incoming transmission from BROADCAST pairing datagram.
@@ -45,67 +45,67 @@ DEBUG (4): [radio<<] Datagram received from node 2 has not the correct key
 DEBUG (3): [radio<<] Incoming transmission from BROADCAST pairing datagram.
 DEBUG (3): [radio<<] Datagram received from node 2 has not the correct key
 DEBUG (1): [radio<<] Incoming transmission from BROADCAST pairing datagram.
-DEBUG (1): [radio<<] TOS_Node: 1 has Key Parent: 3080221256x20 | is paired | with TOS_Node: 2 that has Key Child: 3080689617x20 
+DEBUG (1): [radio<<] TOS_Node: 1 has Key Parent: 3080288808x20 | is paired | with TOS_Node: 2 that has Key Child: 3080757201x20 
 DEBUG (1): [radio>>] Sending UNICAST pairing confirmation.. 
-DEBUG (1): [radio>>] Unicast datagram (pairing acknowledgement) to Address: 2 is under transmission | Time: 0:0:14.212570188 
+DEBUG (1): [radio>>] Unicast datagram (pairing acknowledgement) to Address: 2 is under transmission | Time: 0:0:14.209289567 
 DEBUG (1): [radio>>] Unicast datagram (pairing acknowledgement) to Address: 2 | Transmission is OK | with content: 
 DEBUG (1): 	 Acknowledgement: 1 
 DEBUG (1): 	 Type: 1 
 DEBUG (2): [radio<<] Incoming transmission from UNICAST pairing datagram.
 DEBUG (2): [radio<<] Pairing ACK received | is paired | Stopping broadcast transmission.. 
-DEBUG (1): [radio>>] The acknowledgment received at time 0:0:14.215118391 
+DEBUG (1): [radio>>] The acknowledgment received at time 0:0:14.214965804 
 DEBUG (3): [info] Timer Pairing fired at 0:0:15.207031260 
 DEBUG (3): [radio>>] Broadcast datagram Id: 0 is under transmission | Time: 0:0:15.207031270 
 DEBUG (3): [radio>>] Broadcast datagram Id: 0 | Transmission is OK | with content: 
-DEBUG (3): 	 Key: 3080760771x20 
+DEBUG (3): 	 Key: 3080828355x20 
 DEBUG (3): 	 Address: 3 
 DEBUG (3): 	 Type: 0 
 DEBUG (4): [radio<<] Incoming transmission from BROADCAST pairing datagram.
-DEBUG (4): [radio<<] TOS_Node: 4 has Key Parent: 3080221376x20 | is paired | with TOS_Node: 3 that has Key Child: 3080689740x20 
+DEBUG (4): [radio<<] TOS_Node: 4 has Key Parent: 3080288928x20 | is paired | with TOS_Node: 3 that has Key Child: 3080757324x20 
 DEBUG (4): [radio>>] Sending UNICAST pairing confirmation.. 
 DEBUG (2): [radio<<] Incoming transmission from BROADCAST pairing datagram.
 DEBUG (2): [radio<<] Datagram received from node 3 has not the correct key
 DEBUG (1): [radio<<] Incoming transmission from BROADCAST pairing datagram.
 DEBUG (1): [radio<<] Datagram received from node 3 has not the correct key
-DEBUG (4): [radio>>] Unicast datagram (pairing acknowledgement) to Address: 3 is under transmission | Time: 0:0:15.216949435 
+DEBUG (4): [radio>>] Unicast datagram (pairing acknowledgement) to Address: 3 is under transmission | Time: 0:0:15.212478635 
 DEBUG (4): [radio>>] Unicast datagram (pairing acknowledgement) to Address: 3 | Transmission is OK | with content: 
 DEBUG (4): 	 Acknowledgement: 1 
 DEBUG (4): 	 Type: 1 
 DEBUG (3): [radio<<] Incoming transmission from UNICAST pairing datagram.
 DEBUG (3): [radio<<] Pairing ACK received | is paired | Stopping broadcast transmission.. 
-DEBUG (4): [radio>>] The acknowledgment received at time 0:0:15.223556452 
+DEBUG (4): [radio>>] The acknowledgment received at time 0:0:15.221877995 
 DEBUG (4): [info] Timer Pairing fired at 0:0:16.207031260 
 DEBUG (4): [radio>>] Broadcast datagram Id: 0 is under transmission | Time: 0:0:16.207031270 
 DEBUG (4): [radio>>] Broadcast datagram Id: 0 | Transmission is OK | with content: 
-DEBUG (4): 	 Key: 3080760812x20 
+DEBUG (4): 	 Key: 3080828396x20 
 DEBUG (4): 	 Address: 4 
 DEBUG (4): 	 Type: 0 
 DEBUG (3): [radio<<] Incoming transmission from BROADCAST pairing datagram.
-DEBUG (3): [radio<<] TOS_Node: 3 has Key Parent: 3080221336x20 | is paired | with TOS_Node: 4 that has Key Child: 3080689699x20 
+DEBUG (3): [radio<<] TOS_Node: 3 has Key Parent: 3080288888x20 | is paired | with TOS_Node: 4 that has Key Child: 3080757283x20 
 DEBUG (3): [radio>>] Sending UNICAST pairing confirmation.. 
 DEBUG (2): [radio<<] Incoming transmission from BROADCAST pairing datagram.
 DEBUG (2): [radio<<] Datagram received from node 4 has not the correct key
 DEBUG (1): [radio<<] Incoming transmission from BROADCAST pairing datagram.
 DEBUG (1): [radio<<] Datagram received from node 4 has not the correct key
-DEBUG (3): [radio>>] Unicast datagram (pairing acknowledgement) to Address: 4 is under transmission | Time: 0:0:16.210357676 
+DEBUG (3): [radio>>] Unicast datagram (pairing acknowledgement) to Address: 4 is under transmission | Time: 0:0:16.215087873 
 DEBUG (3): [radio>>] Unicast datagram (pairing acknowledgement) to Address: 4 | Transmission is OK | with content: 
 DEBUG (3): 	 Acknowledgement: 1 
 DEBUG (3): 	 Type: 1 
 DEBUG (4): [radio<<] Incoming transmission from UNICAST pairing datagram.
 DEBUG (4): [radio<<] Pairing ACK received | is paired | Stopping broadcast transmission.. 
-DEBUG (3): [radio>>] The acknowledgment received at time 0:0:16.212844844 
-DEBUG (2): [info] Timer Transmitting fired at 0:0:23.980468760 
+DEBUG (3): [radio>>] The acknowledgment received at time 0:0:16.221908512 
+DEBUG (2): [info] Timer Transmitting fired at 0:0:23.979492197 
 DEBUG (2): [radio>>] Random: 2 | Random Status 3
-DEBUG (2): [radio>>] Child Unicast datagram Id: 0 is under transmission | Time: 0:0:23.980468770 
+DEBUG (2): [radio>>] Child Unicast datagram Id: 0 is under transmission | Time: 0:0:23.979492207 
 DEBUG (2): [radio>>] Child Unicast datagram Id: 0 | Transmission OK | with content: 
 DEBUG (2): 	 Status: 3 
 DEBUG (2): 	 Position X (Longitude): 45267 
 DEBUG (2): 	 Position Y (Latitude): 1677 
 DEBUG (1): [radio<<] Incoming transmission from UNICAST INFO datagram.
 DEBUG (1): [radio<<] Child status: 3. 
-DEBUG (4): [info] Timer Transmitting fired at 0:0:25.977539072 
+DEBUG (4): [info] Timer Transmitting fired at 0:0:25.987304697 
 DEBUG (4): [radio>>] Random: 10 | Random Status 6
-DEBUG (4): [radio>>] Child Unicast datagram Id: 0 is under transmission | Time: 0:0:25.977539082 
+DEBUG (4): [radio>>] Child Unicast datagram Id: 0 is under transmission | Time: 0:0:25.987304707 
 DEBUG (4): [radio>>] Child Unicast datagram Id: 0 | Transmission OK | with content: 
 DEBUG (4): 	 Status: 6 
 DEBUG (4): 	 Position X (Longitude): 9909 
@@ -113,54 +113,54 @@ DEBUG (4): 	 Position Y (Latitude): 24640
 DEBUG (3): [radio<<] Incoming transmission from UNICAST INFO datagram.
 DEBUG (3): [radio<<] Child status: 6. 
 DEBUG (3): [radio>>] !FALLING ALARM! received from child | Address: 4 | Position X: 9909 / Position Y: 24640 
-DEBUG (2): [info] Timer Transmitting fired at 0:0:33.746093760 
+DEBUG (2): [info] Timer Transmitting fired at 0:0:33.745117197 
 DEBUG (2): [radio>>] Random: 4 | Random Status 4
-DEBUG (2): [radio>>] Child Unicast datagram Id: 1 is under transmission | Time: 0:0:33.746093770 
+DEBUG (2): [radio>>] Child Unicast datagram Id: 1 is under transmission | Time: 0:0:33.745117207 
 DEBUG (2): [radio>>] Child Unicast datagram Id: 1 | Transmission OK | with content: 
 DEBUG (2): 	 Status: 4 
 DEBUG (2): 	 Position X (Longitude): 9863 
 DEBUG (2): 	 Position Y (Latitude): 36952 
 DEBUG (1): [radio<<] Incoming transmission from UNICAST INFO datagram.
 DEBUG (1): [radio<<] Child status: 4. 
-DEBUG (4): [info] Timer Transmitting fired at 0:0:35.743164072 
+DEBUG (4): [info] Timer Transmitting fired at 0:0:35.752929697 
 DEBUG (4): [radio>>] Random: 3 | Random Status 3
-DEBUG (4): [radio>>] Child Unicast datagram Id: 1 is under transmission | Time: 0:0:35.743164082 
+DEBUG (4): [radio>>] Child Unicast datagram Id: 1 is under transmission | Time: 0:0:35.752929707 
 DEBUG (4): [radio>>] Child Unicast datagram Id: 1 | Transmission OK | with content: 
 DEBUG (4): 	 Status: 3 
 DEBUG (4): 	 Position X (Longitude): 38284 
 DEBUG (4): 	 Position Y (Latitude): 17897 
 DEBUG (3): [radio<<] Incoming transmission from UNICAST INFO datagram.
 DEBUG (3): [radio<<] Child status: 3. 
-DEBUG (2): [info] Timer Transmitting fired at 0:0:43.511718760 
+DEBUG (2): [info] Timer Transmitting fired at 0:0:43.510742197 
 DEBUG (2): [radio>>] Random: 9 | Random Status 5
-DEBUG (2): [radio>>] Child Unicast datagram Id: 2 is under transmission | Time: 0:0:43.511718770 
+DEBUG (2): [radio>>] Child Unicast datagram Id: 2 is under transmission | Time: 0:0:43.510742207 
 DEBUG (2): [radio>>] Child Unicast datagram Id: 2 | Transmission OK | with content: 
 DEBUG (2): 	 Status: 5 
 DEBUG (2): 	 Position X (Longitude): 7676 
 DEBUG (2): 	 Position Y (Latitude): 36299 
 DEBUG (1): [radio<<] Incoming transmission from UNICAST INFO datagram.
 DEBUG (1): [radio<<] Child status: 5. 
-DEBUG (4): [info] Timer Transmitting fired at 0:0:45.508789072 
+DEBUG (4): [info] Timer Transmitting fired at 0:0:45.518554697 
 DEBUG (4): [radio>>] Random: 9 | Random Status 5
-DEBUG (4): [radio>>] Child Unicast datagram Id: 2 is under transmission | Time: 0:0:45.508789082 
+DEBUG (4): [radio>>] Child Unicast datagram Id: 2 is under transmission | Time: 0:0:45.518554707 
 DEBUG (4): [radio>>] Child Unicast datagram Id: 2 | Transmission OK | with content: 
 DEBUG (4): 	 Status: 5 
 DEBUG (4): 	 Position X (Longitude): 12793 
 DEBUG (4): 	 Position Y (Latitude): 60498 
 DEBUG (3): [radio<<] Incoming transmission from UNICAST INFO datagram.
 DEBUG (3): [radio<<] Child status: 5. 
-DEBUG (2): [info] Timer Transmitting fired at 0:0:53.277343760 
+DEBUG (2): [info] Timer Transmitting fired at 0:0:53.276367197 
 DEBUG (2): [radio>>] Random: 6 | Random Status 4
-DEBUG (2): [radio>>] Child Unicast datagram Id: 3 is under transmission | Time: 0:0:53.277343770 
+DEBUG (2): [radio>>] Child Unicast datagram Id: 3 is under transmission | Time: 0:0:53.276367207 
 DEBUG (2): [radio>>] Child Unicast datagram Id: 3 | Transmission OK | with content: 
 DEBUG (2): 	 Status: 4 
 DEBUG (2): 	 Position X (Longitude): 51657 
 DEBUG (2): 	 Position Y (Latitude): 46336 
 DEBUG (1): [radio<<] Incoming transmission from UNICAST INFO datagram.
 DEBUG (1): [radio<<] Child status: 4. 
-DEBUG (4): [info] Timer Transmitting fired at 0:0:55.274414072 
+DEBUG (4): [info] Timer Transmitting fired at 0:0:55.284179697 
 DEBUG (4): [radio>>] Random: 10 | Random Status 6
-DEBUG (4): [radio>>] Child Unicast datagram Id: 3 is under transmission | Time: 0:0:55.274414082 
+DEBUG (4): [radio>>] Child Unicast datagram Id: 3 is under transmission | Time: 0:0:55.284179707 
 DEBUG (4): [radio>>] Child Unicast datagram Id: 3 | Transmission OK | with content: 
 DEBUG (4): 	 Status: 6 
 DEBUG (4): 	 Position X (Longitude): 64249 
@@ -168,142 +168,144 @@ DEBUG (4): 	 Position Y (Latitude): 11691
 DEBUG (3): [radio<<] Incoming transmission from UNICAST INFO datagram.
 DEBUG (3): [radio<<] Child status: 6. 
 DEBUG (3): [radio>>] !FALLING ALARM! received from child | Address: 4 | Position X: 64249 / Position Y: 11691 
-DEBUG (2): [info] Timer Transmitting fired at 0:1:3.042968760 
+DEBUG (2): [info] Timer Transmitting fired at 0:1:3.041992197 
 DEBUG (2): [radio>>] Random: 7 | Random Status 5
-DEBUG (2): [radio>>] Child Unicast datagram Id: 4 is under transmission | Time: 0:1:3.042968770 
+DEBUG (2): [radio>>] Child Unicast datagram Id: 4 is under transmission | Time: 0:1:3.041992207 
 DEBUG (2): [radio>>] Child Unicast datagram Id: 4 | Transmission OK | with content: 
 DEBUG (2): 	 Status: 5 
 DEBUG (2): 	 Position X (Longitude): 37798 
 DEBUG (2): 	 Position Y (Latitude): 32281 
 DEBUG (1): [radio<<] Incoming transmission from UNICAST INFO datagram.
 DEBUG (1): [radio<<] Child status: 5. 
-DEBUG (4): [info] Timer Transmitting fired at 0:1:5.040039072 
+DEBUG (4): [info] Timer Transmitting fired at 0:1:5.049804697 
 DEBUG (4): [radio>>] Random: 5 | Random Status 4
-DEBUG (4): [radio>>] Child Unicast datagram Id: 4 is under transmission | Time: 0:1:5.040039082 
+DEBUG (4): [radio>>] Child Unicast datagram Id: 4 is under transmission | Time: 0:1:5.049804707 
 DEBUG (4): [radio>>] Child Unicast datagram Id: 4 | Transmission OK | with content: 
 DEBUG (4): 	 Status: 4 
 DEBUG (4): 	 Position X (Longitude): 19306 
 DEBUG (4): 	 Position Y (Latitude): 10111 
 DEBUG (3): [radio<<] Incoming transmission from UNICAST INFO datagram.
 DEBUG (3): [radio<<] Child status: 4. 
-DEBUG (2): [info] Timer Transmitting fired at 0:1:12.808593760 
+DEBUG (2): [info] Timer Transmitting fired at 0:1:12.807617197 
 DEBUG (2): [radio>>] Random: 5 | Random Status 4
-DEBUG (2): [radio>>] Child Unicast datagram Id: 5 is under transmission | Time: 0:1:12.808593770 
+DEBUG (2): [radio>>] Child Unicast datagram Id: 5 is under transmission | Time: 0:1:12.807617207 
 DEBUG (2): [radio>>] Child Unicast datagram Id: 5 | Transmission OK | with content: 
 DEBUG (2): 	 Status: 4 
 DEBUG (2): 	 Position X (Longitude): 43847 
 DEBUG (2): 	 Position Y (Latitude): 49971 
 DEBUG (1): [radio<<] Incoming transmission from UNICAST INFO datagram.
 DEBUG (1): [radio<<] Child status: 4. 
-DEBUG (4): [info] Timer Transmitting fired at 0:1:14.805664072 
+DEBUG (4): [info] Timer Transmitting fired at 0:1:14.815429697 
 DEBUG (4): [radio>>] Random: 2 | Random Status 3
-DEBUG (4): [radio>>] Child Unicast datagram Id: 5 is under transmission | Time: 0:1:14.805664082 
+DEBUG (4): [radio>>] Child Unicast datagram Id: 5 is under transmission | Time: 0:1:14.815429707 
 DEBUG (4): [radio>>] Child Unicast datagram Id: 5 | Transmission OK | with content: 
 DEBUG (4): 	 Status: 3 
 DEBUG (4): 	 Position X (Longitude): 7542 
 DEBUG (4): 	 Position Y (Latitude): 17749 
 DEBUG (3): [radio<<] Incoming transmission from UNICAST INFO datagram.
 DEBUG (3): [radio<<] Child status: 3. 
-DEBUG (2): [info] Timer Transmitting fired at 0:1:22.574218760 
+DEBUG (2): [info] Timer Transmitting fired at 0:1:22.573242197 
 DEBUG (2): [radio>>] Random: 6 | Random Status 4
-DEBUG (2): [radio>>] Child Unicast datagram Id: 6 is under transmission | Time: 0:1:22.574218770 
+DEBUG (2): [radio>>] Child Unicast datagram Id: 6 is under transmission | Time: 0:1:22.573242207 
 DEBUG (2): [radio>>] Child Unicast datagram Id: 6 | Transmission OK | with content: 
 DEBUG (2): 	 Status: 4 
 DEBUG (2): 	 Position X (Longitude): 56316 
 DEBUG (2): 	 Position Y (Latitude): 35470 
 DEBUG (1): [radio<<] Incoming transmission from UNICAST INFO datagram.
 DEBUG (1): [radio<<] Child status: 4. 
-DEBUG (4): [info] Timer Transmitting fired at 0:1:24.571289072 
+DEBUG (4): [info] Timer Transmitting fired at 0:1:24.581054697 
 DEBUG (4): [radio>>] Random: 4 | Random Status 4
-DEBUG (4): [radio>>] Child Unicast datagram Id: 6 is under transmission | Time: 0:1:24.571289082 
+DEBUG (4): [radio>>] Child Unicast datagram Id: 6 is under transmission | Time: 0:1:24.581054707 
 DEBUG (4): [radio>>] Child Unicast datagram Id: 6 | Transmission OK | with content: 
 DEBUG (4): 	 Status: 4 
 DEBUG (4): 	 Position X (Longitude): 28324 
 DEBUG (4): 	 Position Y (Latitude): 59117 
 DEBUG (3): [radio<<] Incoming transmission from UNICAST INFO datagram.
 DEBUG (3): [radio<<] Child status: 4. 
-DEBUG (2): [info] Timer Transmitting fired at 0:1:32.339843760 
+DEBUG (2): [info] Timer Transmitting fired at 0:1:32.338867197 
 DEBUG (2): [radio>>] Random: 8 | Random Status 5
-DEBUG (2): [radio>>] Child Unicast datagram Id: 7 is under transmission | Time: 0:1:32.339843770 
+DEBUG (2): [radio>>] Child Unicast datagram Id: 7 is under transmission | Time: 0:1:32.338867207 
 DEBUG (2): [radio>>] Child Unicast datagram Id: 7 | Transmission OK | with content: 
 DEBUG (2): 	 Status: 5 
 DEBUG (2): 	 Position X (Longitude): 49800 
 DEBUG (2): 	 Position Y (Latitude): 41233 
 DEBUG (1): [radio<<] Incoming transmission from UNICAST INFO datagram.
 DEBUG (1): [radio<<] Child status: 5. 
-DEBUG (4): [info] Timer Transmitting fired at 0:1:34.336914072 
+DEBUG (4): [info] Timer Transmitting fired at 0:1:34.346679697 
 DEBUG (4): [radio>>] Random: 9 | Random Status 5
-DEBUG (4): [radio>>] Child Unicast datagram Id: 7 is under transmission | Time: 0:1:34.336914082 
+DEBUG (4): [radio>>] Child Unicast datagram Id: 7 is under transmission | Time: 0:1:34.346679707 
 DEBUG (4): [radio>>] Child Unicast datagram Id: 7 | Transmission OK | with content: 
 DEBUG (4): 	 Status: 5 
 DEBUG (4): 	 Position X (Longitude): 61155 
 DEBUG (4): 	 Position Y (Latitude): 46877 
 DEBUG (3): [radio<<] Incoming transmission from UNICAST INFO datagram.
 DEBUG (3): [radio<<] Child status: 5. 
-DEBUG (2): [info] Timer Transmitting fired at 0:1:42.105468760 
+DEBUG (2): [info] Timer Transmitting fired at 0:1:42.104492197 
 DEBUG (2): [radio>>] Random: 7 | Random Status 5
-DEBUG (2): [radio>>] Child Unicast datagram Id: 8 is under transmission | Time: 0:1:42.105468770 
+DEBUG (2): [radio>>] Child Unicast datagram Id: 8 is under transmission | Time: 0:1:42.104492207 
 DEBUG (2): [radio>>] Child Unicast datagram Id: 8 | Transmission OK | with content: 
 DEBUG (2): 	 Status: 5 
 DEBUG (2): 	 Position X (Longitude): 13536 
 DEBUG (2): 	 Position Y (Latitude): 33857 
 DEBUG (1): [radio<<] Incoming transmission from UNICAST INFO datagram.
 DEBUG (1): [radio<<] Child status: 5. 
-DEBUG (4): [info] Timer Transmitting fired at 0:1:44.102539072 
+DEBUG (4): [info] Timer Transmitting fired at 0:1:44.112304697 
 DEBUG (4): [radio>>] Random: 5 | Random Status 4
-DEBUG (4): [radio>>] Child Unicast datagram Id: 8 is under transmission | Time: 0:1:44.102539082 
+DEBUG (4): [radio>>] Child Unicast datagram Id: 8 is under transmission | Time: 0:1:44.112304707 
 DEBUG (4): [radio>>] Child Unicast datagram Id: 8 | Transmission OK | with content: 
 DEBUG (4): 	 Status: 4 
 DEBUG (4): 	 Position X (Longitude): 715 
 DEBUG (4): 	 Position Y (Latitude): 34583 
 DEBUG (3): [radio<<] Incoming transmission from UNICAST INFO datagram.
 DEBUG (3): [radio<<] Child status: 4. 
-DEBUG (2): [info] Timer Transmitting fired at 0:1:51.871093760 
+DEBUG (2): [info] Timer Transmitting fired at 0:1:51.870117197 
 DEBUG (2): [radio>>] Random: 4 | Random Status 4
-DEBUG (2): [radio>>] Child Unicast datagram Id: 9 is under transmission | Time: 0:1:51.871093770 
+DEBUG (2): [radio>>] Child Unicast datagram Id: 9 is under transmission | Time: 0:1:51.870117207 
 DEBUG (2): [radio>>] Child Unicast datagram Id: 9 | Transmission OK | with content: 
 DEBUG (2): 	 Status: 4 
 DEBUG (2): 	 Position X (Longitude): 26265 
 DEBUG (2): 	 Position Y (Latitude): 55063 
 DEBUG (1): [radio<<] Incoming transmission from UNICAST INFO datagram.
 DEBUG (1): [radio<<] Child status: 4. 
-DEBUG (4): [info] Timer Transmitting fired at 0:1:53.868164072 
+DEBUG (4): [info] Timer Transmitting fired at 0:1:53.877929697 
 DEBUG (4): [radio>>] Random: 6 | Random Status 4
-DEBUG (4): [radio>>] Child Unicast datagram Id: 9 is under transmission | Time: 0:1:53.868164082 
+DEBUG (4): [radio>>] Child Unicast datagram Id: 9 is under transmission | Time: 0:1:53.877929707 
 DEBUG (4): [radio>>] Child Unicast datagram Id: 9 | Transmission OK | with content: 
 DEBUG (4): 	 Status: 4 
 DEBUG (4): 	 Position X (Longitude): 21930 
 DEBUG (4): 	 Position Y (Latitude): 4390 
 DEBUG (3): [radio<<] Incoming transmission from UNICAST INFO datagram.
 DEBUG (3): [radio<<] Child status: 4. 
-DEBUG (2): [info] Timer Transmitting fired at 0:2:1.636718760 
+DEBUG (2): [info] Timer Transmitting fired at 0:2:1.635742197 
 DEBUG (2): [radio>>] Random: 6 | Random Status 4
-DEBUG (2): [radio>>] Child Unicast datagram Id: 10 is under transmission | Time: 0:2:1.636718770 
+DEBUG (2): [radio>>] Child Unicast datagram Id: 10 is under transmission | Time: 0:2:1.635742207 
 DEBUG (2): [radio>>] Child Unicast datagram Id: 10 | Transmission OK | with content: 
 DEBUG (2): 	 Status: 4 
 DEBUG (2): 	 Position X (Longitude): 7608 
 DEBUG (2): 	 Position Y (Latitude): 11736 
-DEBUG (4): [info] Timer Transmitting fired at 0:2:3.633789072 
+DEBUG (1): [radio<<] Incoming transmission from UNICAST INFO datagram.
+DEBUG (1): [radio<<] Child status: 4. 
+DEBUG (4): [info] Timer Transmitting fired at 0:2:3.643554697 
 DEBUG (4): [radio>>] Random: 4 | Random Status 4
-DEBUG (4): [radio>>] Child Unicast datagram Id: 10 is under transmission | Time: 0:2:3.633789082 
+DEBUG (4): [radio>>] Child Unicast datagram Id: 10 is under transmission | Time: 0:2:3.643554707 
 DEBUG (4): [radio>>] Child Unicast datagram Id: 10 | Transmission OK | with content: 
 DEBUG (4): 	 Status: 4 
 DEBUG (4): 	 Position X (Longitude): 34525 
 DEBUG (4): 	 Position Y (Latitude): 19561 
 DEBUG (3): [radio<<] Incoming transmission from UNICAST INFO datagram.
 DEBUG (3): [radio<<] Child status: 4. 
-DEBUG (2): [info] Timer Transmitting fired at 0:2:11.402343760 
+DEBUG (2): [info] Timer Transmitting fired at 0:2:11.401367197 
 DEBUG (2): [radio>>] Random: 2 | Random Status 3
-DEBUG (2): [radio>>] Child Unicast datagram Id: 11 is under transmission | Time: 0:2:11.402343770 
+DEBUG (2): [radio>>] Child Unicast datagram Id: 11 is under transmission | Time: 0:2:11.401367207 
 DEBUG (2): [radio>>] Child Unicast datagram Id: 11 | Transmission OK | with content: 
 DEBUG (2): 	 Status: 3 
 DEBUG (2): 	 Position X (Longitude): 52008 
 DEBUG (2): 	 Position Y (Latitude): 48323 
 DEBUG (1): [radio<<] Incoming transmission from UNICAST INFO datagram.
 DEBUG (1): [radio<<] Child status: 3. 
-DEBUG (4): [info] Timer Transmitting fired at 0:2:13.399414072 
+DEBUG (4): [info] Timer Transmitting fired at 0:2:13.409179697 
 DEBUG (4): [radio>>] Random: 10 | Random Status 6
-DEBUG (4): [radio>>] Child Unicast datagram Id: 11 is under transmission | Time: 0:2:13.399414082 
+DEBUG (4): [radio>>] Child Unicast datagram Id: 11 is under transmission | Time: 0:2:13.409179707 
 DEBUG (4): [radio>>] Child Unicast datagram Id: 11 | Transmission OK | with content: 
 DEBUG (4): 	 Status: 6 
 DEBUG (4): 	 Position X (Longitude): 42989 
@@ -311,36 +313,36 @@ DEBUG (4): 	 Position Y (Latitude): 58694
 DEBUG (3): [radio<<] Incoming transmission from UNICAST INFO datagram.
 DEBUG (3): [radio<<] Child status: 6. 
 DEBUG (3): [radio>>] !FALLING ALARM! received from child | Address: 4 | Position X: 42989 / Position Y: 58694 
-DEBUG (2): [info] Timer Transmitting fired at 0:2:21.167968760 
+DEBUG (2): [info] Timer Transmitting fired at 0:2:21.166992197 
 DEBUG (2): [radio>>] Random: 9 | Random Status 5
-DEBUG (2): [radio>>] Child Unicast datagram Id: 12 is under transmission | Time: 0:2:21.167968770 
+DEBUG (2): [radio>>] Child Unicast datagram Id: 12 is under transmission | Time: 0:2:21.166992207 
 DEBUG (2): [radio>>] Child Unicast datagram Id: 12 | Transmission OK | with content: 
 DEBUG (2): 	 Status: 5 
 DEBUG (2): 	 Position X (Longitude): 11561 
 DEBUG (2): 	 Position Y (Latitude): 61547 
 DEBUG (1): [radio<<] Incoming transmission from UNICAST INFO datagram.
 DEBUG (1): [radio<<] Child status: 5. 
-DEBUG (4): [info] Timer Transmitting fired at 0:2:23.165039072 
+DEBUG (4): [info] Timer Transmitting fired at 0:2:23.174804697 
 DEBUG (4): [radio>>] Random: 3 | Random Status 3
-DEBUG (4): [radio>>] Child Unicast datagram Id: 12 is under transmission | Time: 0:2:23.165039082 
+DEBUG (4): [radio>>] Child Unicast datagram Id: 12 is under transmission | Time: 0:2:23.174804707 
 DEBUG (4): [radio>>] Child Unicast datagram Id: 12 | Transmission OK | with content: 
 DEBUG (4): 	 Status: 3 
 DEBUG (4): 	 Position X (Longitude): 19268 
 DEBUG (4): 	 Position Y (Latitude): 37043 
 DEBUG (3): [radio<<] Incoming transmission from UNICAST INFO datagram.
 DEBUG (3): [radio<<] Child status: 3. 
-DEBUG (2): [info] Timer Transmitting fired at 0:2:30.933593760 
+DEBUG (2): [info] Timer Transmitting fired at 0:2:30.932617197 
 DEBUG (2): [radio>>] Random: 1 | Random Status 3
-DEBUG (2): [radio>>] Child Unicast datagram Id: 13 is under transmission | Time: 0:2:30.933593770 
+DEBUG (2): [radio>>] Child Unicast datagram Id: 13 is under transmission | Time: 0:2:30.932617207 
 DEBUG (2): [radio>>] Child Unicast datagram Id: 13 | Transmission OK | with content: 
 DEBUG (2): 	 Status: 3 
 DEBUG (2): 	 Position X (Longitude): 59677 
 DEBUG (2): 	 Position Y (Latitude): 40850 
 DEBUG (1): [radio<<] Incoming transmission from UNICAST INFO datagram.
 DEBUG (1): [radio<<] Child status: 3. 
-DEBUG (4): [info] Timer Transmitting fired at 0:2:32.930664072 
+DEBUG (4): [info] Timer Transmitting fired at 0:2:32.940429697 
 DEBUG (4): [radio>>] Random: 5 | Random Status 4
-DEBUG (4): [radio>>] Child Unicast datagram Id: 13 is under transmission | Time: 0:2:32.930664082 
+DEBUG (4): [radio>>] Child Unicast datagram Id: 13 is under transmission | Time: 0:2:32.940429707 
 DEBUG (4): [radio>>] Child Unicast datagram Id: 13 | Transmission OK | with content: 
 DEBUG (4): 	 Status: 4 
 DEBUG (4): 	 Position X (Longitude): 55772 
