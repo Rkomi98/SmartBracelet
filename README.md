@@ -16,6 +16,11 @@ Each file making the simulation possible is explained in the [**project report**
 
 All the simulation is performed in Cooja and it is connected with NodeRed. You can find the code in the file ["NodeRed_Simulation.txt"](https://github.com/Rkomi98/SmartBracelet/blob/help/NodeRed_Simulation.txt).
 
+> It is important to enable the serial port from the settings of the Virtual Machine
+![immagine](https://user-images.githubusercontent.com/72648197/187158088-8b16f126-237e-4ded-90c7-69a36eeab314.png)
+
+
+
 To see how the simulation works you can download the video provided in this repository, named ["Simulazione.mp4"](https://github.com/Rkomi98/SmartBracelet/blob/help/Simulazione.mp4).
 
 
